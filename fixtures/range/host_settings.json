@@ -1,0 +1,6 @@
+{
+  "records": [
+    {"hostname": "RANGE-WIN", "key": "audit_policy", "value": "disabled", "evidence_line": "RANGE-WIN audit_policy=disabled"},
+    {"hostname": "RANGE-LX", "key": "audit_policy", "value": "enabled", "evidence_line": "RANGE-LX audit_policy=enabled"}
+  ]
+}

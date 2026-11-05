@@ -1,0 +1,6 @@
+{
+  "events": [
+    {"hostname": "RANGE-LX", "message": "privileged_login user=root", "evidence_line": "RANGE-LX privileged_login user=root"},
+    {"hostname": "RANGE-LX", "message": "service_started name=cron", "evidence_line": "RANGE-LX service_started name=cron"}
+  ]
+}

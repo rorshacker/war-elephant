@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Benchmark xmlns="http://checklists.nist.gov/xccdf/1.2" id="FLEETGUARD-SYNTH-WIN10">
+  <title>SYNTHETIC TRAINING Windows 10 benchmark — not a DISA STIG</title>
+  <description>Synthetic training data for FleetGuard. Not issued by DISA and not operational guidance.</description>
+  <version>1</version>
+  <plain-text id="release">1</plain-text>
+  <Rule id="FG-WIN10-AUDIT-POLICY" severity="medium">
+    <version>1</version>
+    <title>SYNTHETIC lab audit policy marker</title>
+    <description>Training rule only.</description>
+    <reference href="synthetic:fleetguard"/>
+    <check system="synthetic:fleetguard">
+      <check-content>Read the bound lab file. This text is not executable.</check-content>
+    </check>
+    <fix>Training text only. Do not run this paragraph as a command.</fix>
+  </Rule>
+  <Rule id="FG-WIN10-MANUAL-BANNER" severity="low">
+    <version>1</version>
+    <title>SYNTHETIC manual banner review</title>
+    <description>No automated check is registered for this training rule.</description>
+    <check system="synthetic:fleetguard">
+      <check-content>Manual review text. Not an application instruction.</check-content>
+    </check>
+    <fix>Manual training text. Not an application instruction.</fix>
+  </Rule>
+</Benchmark>

@@ -1,0 +1,6 @@
+{
+  "rules": [
+    {"device_name": "RANGE-FW", "action": "permit", "source": "any", "destination": "any", "port": "445", "evidence_line": "RANGE-FW permit any any 445"},
+    {"device_name": "RANGE-FW", "action": "permit", "source": "10.50.0.10", "destination": "10.50.0.11", "port": "22", "evidence_line": "RANGE-FW permit host to host 22"}
+  ]
+}

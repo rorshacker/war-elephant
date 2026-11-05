@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Benchmark xmlns="http://checklists.nist.gov/xccdf/1.2" id="FLEETGUARD-SYNTH-RHEL8">
+  <title>SYNTHETIC TRAINING RHEL benchmark — not a DISA STIG</title>
+  <description>Synthetic training data for FleetGuard.</description>
+  <version>1</version>
+  <plain-text id="release">1</plain-text>
+  <Rule id="FG-RHEL-MANUAL" severity="medium">
+    <version>1</version>
+    <title>SYNTHETIC RHEL manual review</title>
+    <description>No SSH remediation is registered in this build.</description>
+    <check system="synthetic:fleetguard">
+      <check-content>Manual review text. Not an application instruction.</check-content>
+    </check>
+    <fix>Manual training text. Not an application instruction.</fix>
+  </Rule>
+</Benchmark>

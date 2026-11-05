@@ -1,0 +1,10 @@
+hostname,ip_address,subnet,device_type,os,vlan,enclave,department,owner,mission_function,criticality,maintenance_window,scan_restrictions
+WS-ALPHA,10.1.10.21,10.1.10.0/24,workstation,Windows 10,10,SYNTH-ENCLAVE,Engineering,A. Operator,Training,high,Sun 02:00-04:00,none
+WS-BETA,10.1.10.22,10.1.10.0/24,workstation,Windows 10,10,SYNTH-ENCLAVE,Engineering,A. Operator,Training,medium,Sun 02:00-04:00,none
+WS-DUP,10.1.10.21,10.1.10.0/24,workstation,Windows 11,10,SYNTH-ENCLAVE,Ops,B. Operator,Training,low,,
+SRV-01,10.1.20.5,10.1.20.0/24,server,Windows Server 2022,20,SYNTH-ENCLAVE,IT,C. Operator,Directory,high,Sat 01:00-03:00,no-icmp
+SW-01,10.1.30.2,10.1.30.0/24,switch,VendorOS 1.0,30,SYNTH-ENCLAVE,Network,D. Operator,Transport,high,,no-credential-scan
+PRN-01,10.1.30.40,10.1.30.0/24,printer,PrinterOS,30,SYNTH-ENCLAVE,Admin,E. Operator,Print,low,,
+LNX-01,10.1.40.8,10.1.40.0/24,server,RHEL 8.10,40,SYNTH-ENCLAVE,Platform,F. Operator,Apps,high,Sun 01:00-02:00,
+UNKNOWN-01,10.1.50.9,10.1.50.0/24,appliance,,50,SYNTH-ENCLAVE,Labs,G. Operator,Sensor,medium,,
+LAB-WIN,127.0.0.1,127.0.0.1/32,workstation,Windows 10,1,SYNTH-ENCLAVE,Lab,H. Operator,Training,high,,lab-only

@@ -1,0 +1,6 @@
+{
+  "records": [
+    {"hostname": "RANGE-LX", "package": "openssl", "version": "1.1.1", "evidence_line": "RANGE-LX package openssl 1.1.1"},
+    {"hostname": "RANGE-LX", "package": "bash", "version": "5.1", "evidence_line": "RANGE-LX package bash 5.1"}
+  ]
+}

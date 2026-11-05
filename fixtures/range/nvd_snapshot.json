@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "cve_id": "CVE-SYNTH-2026-0001",
+      "severity": "high",
+      "description": "Synthetic training bulletin. openssl 1.1.1 is marked in this offline snapshot. This is not an NVD record and it is not remediation guidance.",
+      "product_name": "openssl",
+      "version": "1.1.1",
+      "source_ref": "synthetic:nvd-snapshot"
+    }
+  ]
+}

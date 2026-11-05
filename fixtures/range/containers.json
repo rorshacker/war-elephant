@@ -1,0 +1,12 @@
+{
+  "containers": [
+    {
+      "name": "app",
+      "hostname": "APP-CONTAINER",
+      "image": "synth-app:1",
+      "user_name": "root",
+      "privileged": true,
+      "evidence_line": "APP-CONTAINER privileged=true user=root"
+    }
+  ]
+}

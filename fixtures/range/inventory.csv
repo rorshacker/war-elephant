@@ -1,0 +1,5 @@
+hostname,ip_address,subnet,device_type,os,vlan,enclave,department,owner,mission_function,criticality,maintenance_window,scan_restrictions
+RANGE-WIN,10.50.0.10,10.50.0.0/24,workstation,Windows 11,50,RANGE,Training,System Owner,Training,high,,synthetic
+RANGE-LX,10.50.0.11,10.50.0.0/24,server,RHEL 8.10,50,RANGE,Training,System Owner,Training,high,,synthetic
+RANGE-FW,10.50.0.12,10.50.0.0/24,appliance,VendorOS 1.0,50,RANGE,Network,System Owner,Transport,high,,synthetic
+APP-CONTAINER,10.50.0.13,10.50.0.0/24,container,container image,50,RANGE,Apps,Data Owner,Application,high,,synthetic
