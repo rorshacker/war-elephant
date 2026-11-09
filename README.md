@@ -1,8 +1,10 @@
 # War Elephant
 
-Offline-first workbench for preparing STIG baselines and a ship inventory on a connected machine, then running approved discovery, assessment, and a narrow lab change inside an isolated enclave.
+Proof of concept. This is an offline workbench for preparing a checklist and an inventory, then recording what a selected set of computers still needs. It is not a compliance determination, and it does not change a remote operating system.
 
-War Elephant does not call the network for guidance, packages, or models at runtime. Live directory query is off unless `FLEETGUARD_ENABLE_LIVE_LDAP=1`. The only implemented configuration change writes one key in a lab file under the configured lab root.
+A scan reads stored files only. Imported check text and packages are not executed. A local checksum is an integrity check, not proof that a publisher signed the file. The only automatic write is an allowlisted key in a local lab file, and only after a person approves that exact change during a current maintenance window.
+
+War Elephant does not call the network for guidance, packages, or models at runtime. Live directory query is off unless `FLEETGUARD_ENABLE_LIVE_LDAP=1`.
 
 ## Run
 
